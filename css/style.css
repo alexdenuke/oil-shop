@@ -1,0 +1,140 @@
+body{
+    font-family: 'Noto Sans Tamil', sans-serif;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+.header {
+    padding: 10px 0px;
+    font-size: 20px;
+    border-bottom: 1px solid #c7c7c7;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding: 0px 20px; */
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+
+}
+.header__logo {
+    margin-right: 100px;
+}
+.header__logo-img {
+    width: 50px;
+}
+.header__catalog {
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.header__about {
+    margin-right: 30px;
+    
+}
+.header__contacts {
+    flex: 1 auto;
+}
+.header__tel {
+    margin-right: 100px;
+    
+}
+.header__cart {
+}
+.header__cart-img {
+    width: 50px;
+}
+
+.main__title {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main__catalog {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.main__catalog-title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.main__catalog-item {
+}
+
+
+/* КАТАЛОГ */
+
+
+.catalog__products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalog__item {
+    flex-basis: 25%;
+    padding: 20px 20px;
+    box-shadow: 0px 0px 4px 0px #e5e5e5;
+    margin-top: 20px;
+}
+.catalog__title {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.catalog__item-img {
+    max-width: 100%;
+}
+
+.catalog__item-name {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.catalog__item-remains-wrap {
+    display: flex;
+    margin-top: 10px;
+}
+.catalog__item-remains {
+    margin-right: auto;
+    color: green;
+    font-weight: 600;
+}
+.catalog__item-article {
+    color: rgb(124, 124, 124);
+}
+.catalog__item-amount-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.catalog__item-amount {
+    font-size: 16px;
+    padding: 5px 20px;
+    background-color: #f7f7f7;
+}
+.catalog__item-price-wrap {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.catalog__item-price {
+    font-size: 20px;
+    margin-right: auto;
+}
+.catalog__item-buy {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #fdc316;
+}
