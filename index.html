@@ -8,54 +8,64 @@
   <title>oil-shop</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" /> -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@300;400;500;600&display=swap"
-    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="/css/reset.css" />
   <link rel="stylesheet" href="/css/style.css" />
 </head>
 
 <body>
-  <div class="content">
-    <header class="header">
-      <div class="container">
-        <nav class="header__nav">
-          <a href="/index.html" class="header__logo">
-            <img src="/img/logo.svg" alt="" class="header__logo-img" />
-          </a>
-          <!-- <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Каталог
-            </button>
-            <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item" href="/html/catalog.html">Автомобильное масло</a>
-              </li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </li>
-            </ul>
-          </div> -->
-          <p class="header__catalog">Каталог</p>
-          <a href="#" class="header__about">О компании</a>
-          <a href="" class="header__contacts">Контакты</a>
-          <a href="" class="header__tel">8999-777-55-66</a>
-          <a href="#" class="header__cart">
-            <img src="/img/cart-b.svg" alt="" class="header__cart-img" />
-          </a>
-        </nav>
-      </div>
-    </header>
 
-    <section class="section brand-color">
+  <header class="header">
+    <div class="burger__body">
+      <a href="/html/catalog.html" class="burger__body-link">Моторное масло</a>
+      <a href="/html/catalog.html" class="burger__body-link">Трансмисионное масло</a>
+      <a href="/html/catalog.html" class="burger__body-link">Смазка</a>
+      <a href="/html/catalog.html" class="burger__body-link">Нефть</a>
+      <a href="/html/catalog.html" class="burger__body-link">Бензин</a>
+    </div>
+    <div class="container">
+
+      <nav class="header__nav">
+        <img src="/img/burger.svg" alt="" class="header__burger">
+        <a href="/index.html" class="header__logo">
+          <img src="/img/logo.svg" alt="" class="header__logo-img" />
+        </a>
+        <div class="header__catalog-wrap">
+          <div class="header__catalog">
+            Каталог
+            <img src="/img/triangle.svg" alt="" class="header__catalog-triangle">
+          </div>
+          <div class="dropdown">
+            <a href="/html/catalog.html" class="dropdown-link">Моторное масло</a>
+            <a href="/html/catalog.html" class="dropdown-link">Трансмисионное масло</a>
+            <a href="/html/catalog.html" class="dropdown-link">Смазка</a>
+            <a href="/html/catalog.html" class="dropdown-link">Нефть</a>
+            <a href="/html/catalog.html" class="dropdown-link">Бензин</a>
+          </div>
+        </div>
+        <a href="#" class="header__contacts">Контакты</a>
+        <a href="#" class="header__about">О компании</a>
+        <a href="#" class="header__tel">8999-777-55-66</a>
+        <a href="#" class="header__cart">
+          <img src="/img/cart-b.svg" alt="" class="header__cart-img" />
+        </a>
+      </nav>
+    </div>
+  </header>
+  <div class="content">
+
+    <div class="header-dublicate"></div>
+    <section class="section-lvl1 brand-color">
       <div class="container">
-        <h1 class="title-h1">
+        <h1 class="title">
           Интернет-магазин оригинального машинного масла и смазочных
           материалов
         </h1>
+
         <div class="block-icons">
           <div class="icon">
             <img src="/img/operator2.svg" alt="" class="icon__img" />
@@ -63,43 +73,54 @@
           </div>
           <div class="icon">
             <img src="/img/quality.svg" alt="" class="icon__img" />
-            <div class="icon__text">Качество проверенное временем</div>
+            <div class="icon__text">Качество проверенное временем Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores perferendis est asperiores consectetur doloribus laboriosam incidunt cum inventore quas blanditiis minus dolorem nam nobis similique, cupiditate hic sint facilis aliquam?</div>
           </div>
           <div class="icon">
             <img src="/img/decision.svg" alt="" class="icon__img" />
-            <div class="icon__text">Лучшее решение для вашего автомобиля</div>
+            <div class="icon__text">Лучшее решение для вашего автомобиля askjdbksaj askjd bsakj dbsak dbsk db sldjskdjfnkdsjfn kjsdn fkjsdnkjfndskjfn ds f</div>
           </div>
           <div class="icon">
             <img src="/img/delivery.svg" alt="" class="icon__img" />
             <div class="icon__text">Быстрая доставка</div>
           </div>
         </div>
+
       </div>
     </section>
 
-    <section class="section">
-      <div class="container">
-        <p class="title-h2">Каталог</p>
-        <div class="catalog">
-            <a href="/html/catalog.html" class="catalog__item">
-              <img src="/img/barrel.jpg" alt="" class="catalog__img" />
-              <div class="main__catalog-item-name">Машинное масло</div>
-            </a>
-            <a href="" class="catalog__item">
-              <img src="/img/transmission.jpg" alt="" class="catalog__img" />
-              <div class="main__catalog-item-name">Трансмисионное масло</div>
-            </a>
-            <a href="" class="catalog__item">
-              <img src="/img/lubricant2.jpg" alt="" class="catalog__img" />
-              <div class="main__catalog-item-name">Смазка</div>
-            </a>
+    <section class="section-lvl1">
+      <div class="container-category">
+        <p class="title">Категории</p>
+
+        <div class="category">
+          <a href="/html/catalog.html" class="category__item">
+            <img src="/img/barrel.jpg" alt="" class="category__img" />
+            <button class="category__name">Машинное масло</button>
+          </a>
+          <a href="" class="category__item">
+            <img src="/img/transmission.jpg" alt="" class="category__img" />
+            <button class="category__name">Трансмисионное масло</button>
+          </a>
+          <a href="" class="category__item">
+            <img src="/img/lubricant2.jpg" alt="" class="category__img" />
+            <button class="category__name">Смазка</button>
+          </a>
+          <a href="" class="category__item">
+            <img src="/img/lubricant2.jpg" alt="" class="category__img" />
+            <button class="category__name">Смазка</button>
+          </a>
+          <a href="" class="category__item">
+            <img src="/img/transmission.jpg" alt="" class="category__img" />
+            <button class="category__name">Трансмисионное масло</button>
+          </a>
         </div>
       </div>
+
     </section>
 
-    <section class="section brand-color">
+    <section class="section-lvl1 brand-color">
       <div class="container">
-        <h2 class="title-h2">
+        <h2 class="title">
           Оставьте заявку и мы вам перезвоним и проконсультируем по всем
           вопросам.
         </h2>
@@ -110,6 +131,7 @@
         </form>
       </div>
     </section>
+
   </div>
 
   <footer class="footer">
@@ -126,7 +148,7 @@
 
   <script src="/script/swiper.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/script/script.js"></script>
 </body>
 
 </html>
