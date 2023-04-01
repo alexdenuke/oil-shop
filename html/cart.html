@@ -2,81 +2,126 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="/css/reset.css" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <title>cart</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/css/reset.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/media.css">
+  <title>cart</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="burger__body">
-          <a href="/html/catalog.html" class="burger__body-link">Моторное масло</a>
-          <a href="/html/catalog.html" class="burger__body-link">Трансмисионное масло</a>
-          <a href="/html/catalog.html" class="burger__body-link">Смазка</a>
-          <a href="/html/catalog.html" class="burger__body-link">Нефть</a>
-          <a href="/html/catalog.html" class="burger__body-link">Бензин</a>
-          <a href="/html/catalog.html" class="burger__body-link">О компании</a>
-          <a href="/html/catalog.html" class="burger__body-link">контакты</a>
-        </div>
-        <div class="container">
-    
-          <nav class="header__nav">
-            <img src="/img/burger.svg" alt="" class="header__burger">
-            <a href="/index.html" class="header__logo">
-              <img src="/img/logo.svg" alt="" class="header__logo-img" />
-            </a>
-            <div class="header__catalog-wrap">
-              <div class="header__catalog">
-                Каталог
-                <!-- <img src="/img/triangle.svg" alt="" class="header__catalog-triangle"> -->
-              </div>
-              <div class="dropdown">
-                <a href="/html/catalog.html" class="dropdown-link">Моторное масло</a>
-                <a href="/html/catalog.html" class="dropdown-link">Трансмисионное масло</a>
-                <a href="/html/catalog.html" class="dropdown-link">Смазка</a>
-                <a href="/html/catalog.html" class="dropdown-link">Нефть</a>
-                <a href="/html/catalog.html" class="dropdown-link">Бензин</a>
-              </div>
-            </div>
-            <a href="#" class="header__contacts">Контакты</a>
-            <a href="#" class="header__about">О компании</a>
-            <a href="#" class="header__tel">8999-777-55-66</a>
-            <a href="/html/cart.html" class="header__cart">
-              <img src="/img/cart-b.svg" alt="" class="header__cart-img" />
-            </a>
-          </nav>
-        </div>
-      </header>
-    <div class="content">
-        <div class="header-dublicate"></div>
-        <section class="section">
-            <div class="container">
-                <div class="cart">
-                    <div class="cart__item">
-                        <div class="cart__img-wrap">
-                            <img src="/img/oil.jpg" alt="" class="cart__img">
-                        </div>
-                        <div class="cart__name">масло такое-то</div>
-                        <img src="" alt="" class="cart__minus">1
-                        <div class="cart__quantity">1л</div>
-                        <img src="" alt="" class="cart__plus">+
-                        <div class="cart__amount">1000 р</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+  <header class="header">
+    <div class="burger__body">
+      <a href="/html/catalog.html" class="burger__body-link">Моторное масло</a>
+      <a href="/html/catalog.html" class="burger__body-link">Трансмисионное масло</a>
+      <a href="/html/catalog.html" class="burger__body-link">Смазка</a>
+      <a href="/html/catalog.html" class="burger__body-link">Нефть</a>
+      <a href="/html/catalog.html" class="burger__body-link">Бензин</a>
+      <a href="/html/catalog.html" class="burger__body-link">О компании</a>
+      <a href="/html/catalog.html" class="burger__body-link">контакты</a>
     </div>
-    <script src="/script/script.js"></script>
+    <div class="container">
+
+      <nav class="header__nav">
+        <img src="/img/burger.svg" alt="" class="header__burger">
+        <a href="/index.html" class="header__logo">
+          <img src="/img/logo.svg" alt="" class="header__logo-img" />
+        </a>
+        <div class="header__catalog-wrap">
+          <div class="header__catalog">
+            Каталог
+          </div>
+          <div class="dropdown">
+            <a href="/html/catalog.html" class="dropdown-link">Моторное масло</a>
+            <a href="/html/catalog.html" class="dropdown-link">Трансмисионное масло</a>
+            <a href="/html/catalog.html" class="dropdown-link">Смазка</a>
+            <a href="/html/catalog.html" class="dropdown-link">Нефть</a>
+            <a href="/html/catalog.html" class="dropdown-link">Бензин</a>
+          </div>
+        </div>
+        <a href="#" class="header__contacts">Контакты</a>
+        <a href="#" class="header__about">О компании</a>
+        <a href="#" class="header__tel">8(999)-777-55-66</a>
+        <a href="/html/cart.html" class="header__cart">
+          <img src="/img/cart-b.svg" alt="" class="header__cart-img" />
+        </a>
+      </nav>
+    </div>
+  </header>
+  <div class="content">
+    <div class="header-dublicate"></div>
+    <section class="section-lvl2">
+      <div class="container">
+        <h1 class="title">Корзина:</h1>
+        <div class="cart">
+          
+          <section class="section">
+            
+            <div class="cart__item">
+              <img src="/img/delete.svg" alt="" class="cart__item-delete">
+              <div class="cart__img-wrap">
+                <img src="/img/oil-big.jpg" alt="" class="cart__img">
+              </div>
+              <div class="cart__info">
+                <a href="/html/product.html" class="cart__name">
+                  Трансмиссионное масло Petro-Canada Lorem ipsum dolor sit amet consectetur 
+                </a>
+                <div class="cart__price-wrap">
+                  <div class="cart__amount">5 л </div>
+                  <img src="/img/minus.svg" alt="" class="cart__minus">
+                  <div class="cart__quantity">1000</div>
+                  <img src="/img/plus.svg" alt="" class="cart__plus">
+                  <div class="cart__price">1000000 р</div>
+                </div>
+              </div>
+            </div>
+  
+            <form action="" class="cart__form">
+              <input type="text" placeholder="Ваше имя" class="cart__input">
+              <input type="text" placeholder="Ваш телефон" class="cart__input">
+              <input type="text" placeholder="Ваша почта" class="cart__input">
+              <input type="text" placeholder="" class="cart__input">
+              <input type="text" class="cart__input">
+              <input type="text" class="cart__input">
+            </form>
+          </div>
+        </div>
+      </section>
+          </section>
+
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrap">
+        <div class="footer__links">
+          <a href="" class="footer__link-item">Маркетплэйс</a>
+          <a href="" class="footer__link-item">Скидки</a>
+          <a href="" class="footer__link-item">Контакты</a>
+          <a href="" class="footer__link-item">Политика конфиденциальности</a>
+          <p class="footer__email">
+            Petrocanadapd@gmail.com
+          </p>
+        </div>
+        <div class="footer__icons">
+          <a href="" class="footer__telegram">
+            <img src="/img/tlg.svg" alt="" class="footer__telegram-icon">
+          </a>
+          <a href="" class="footer__whatsapp">
+            <img src="/img/whatsapp.svg" alt="" class="footer__telegram-icon">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/script/script.js"></script>
 </body>
 
 </html>
