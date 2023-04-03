@@ -29,7 +29,6 @@
       <a href="/html/catalog.html" class="burger__body-link">контакты</a>
     </div>
     <div class="container">
-
       <nav class="header__nav">
         <img src="/img/burger.svg" alt="" class="header__burger">
         <a href="/index.html" class="header__logo">
@@ -62,41 +61,120 @@
       <div class="container">
         <h1 class="title">Корзина:</h1>
         <div class="cart">
-          
-          <section class="section">
-            
-            <div class="cart__item">
-              <img src="/img/delete.svg" alt="" class="cart__item-delete">
-              <div class="cart__img-wrap">
-                <img src="/img/oil-big.jpg" alt="" class="cart__img">
-              </div>
-              <div class="cart__info">
-                <a href="/html/product.html" class="cart__name">
-                  Трансмиссионное масло Petro-Canada Lorem ipsum dolor sit amet consectetur 
-                </a>
-                <div class="cart__price-wrap">
-                  <div class="cart__amount">5 л </div>
-                  <img src="/img/minus.svg" alt="" class="cart__minus">
-                  <div class="cart__quantity">1000</div>
-                  <img src="/img/plus.svg" alt="" class="cart__plus">
-                  <div class="cart__price">1000000 р</div>
-                </div>
+          <div class="cart__item">
+            <img src="/img/delete.svg" alt="" class="cart__item-delete">
+            <div class="cart__img-wrap">
+              <img src="/img/oil-big.jpg" alt="" class="cart__img">
+            </div>
+            <div class="cart__info">
+              <a href="/html/product.html" class="cart__name">
+                Трансмиссионное масло Petro-Canada Lorem ipsum dolor sit amet consectetur
+              </a>
+              <div class="cart__price-wrap">
+                <div class="cart__amount">5 л </div>
+                <img src="/img/minus.svg" alt="" class="cart__minus">
+                <div class="cart__quantity">1000</div>
+                <img src="/img/plus.svg" alt="" class="cart__plus">
+                <div class="cart__price">1000000 р</div>
               </div>
             </div>
-  
-            <form action="" class="cart__form">
-              <input type="text" placeholder="Ваше имя" class="cart__input">
-              <input type="text" placeholder="Ваш телефон" class="cart__input">
-              <input type="text" placeholder="Ваша почта" class="cart__input">
-              <input type="text" placeholder="" class="cart__input">
-              <input type="text" class="cart__input">
-              <input type="text" class="cart__input">
-            </form>
           </div>
         </div>
-      </section>
-          </section>
+      </div>
+    </section>
+    <div class="container">
+        <p class="cart__delivery-text">Доставка 350 р</p>
+        <p class="cart__delivery-text">( бесплатная доставка от 3500)</p>
+        <p class="cart__delivery-text-strong">Общая сумма: 1000000 р </p>
+    </div>
 
+    <section class="section-lvl2">
+      <div class="container">
+        <form class="cart__form" action="">
+          <fieldset class="cart__fieldset">
+            <legend class="cart__legend">
+              Введите ваши данные
+            </legend>
+              <label class="cart__label label-star" for="">
+                Ваше имя
+              </label>
+              <input class="cart__input"  type="text">
+  
+              <label class="cart__label label-star" for="">
+                Ваш телефон
+              </label>
+              <input class="cart__input"  type="text">
+  
+              <label class="cart__label label-star" for="">
+                Ваша почта
+              </label>
+              <input class="cart__input"  type="text">
+  
+              <label class="cart__label" for="">
+                Комментарий
+              </label>
+              <input class="cart__input" type="text">
+          </fieldset>
+
+          <fieldset class="cart__fieldset">
+            <legend class="cart__legend">
+              Введите ваш адрес
+            </legend>
+
+              <label class="cart__label label-star" for="">
+                Улица
+              </label>
+              <input class="cart__input"  type="text">
+
+              <div class="cart__input-short-flex">
+                
+                <div class="flex-column margin-r ">
+                  <label class="cart__label label-star" for="">
+                    Дом
+                  </label>
+                  <input class="cart__input" type="text">
+                </div>
+
+                <div class="flex-column">
+                  <label class="cart__label label-star" for="">
+                    Квартира
+                  </label>
+                  <input class="cart__input" type="text">
+                </div>
+              </div>
+
+              <div class="cart__input-short-flex">
+                <div class="flex-column margin-r">
+                  <label class="cart__label" for="">
+                    Этаж
+                  </label>
+                  <input class="cart__input" type="text">
+                </div>
+
+                <div class="flex-column">
+                  <label class="cart__label" for="">
+                    Подъезд
+                  </label>
+                  <input class="cart__input" type="text">
+                </div>
+              </div>
+
+
+              <label class="cart__label" for="">
+                Домофон
+              </label>
+              <input class="cart__input" type="text">
+              <button class="cart__form-button">
+                Заказать
+              </button>
+          </fieldset>
+            
+        </form>
+        <p class="politics">
+          * Нажимая на кнопку «Заказать», я даю согласие на обработку персональных данных.
+        </p>
+      </div>
+    </section>
   </div>
   <footer class="footer">
     <div class="container">
@@ -105,7 +183,7 @@
           <a href="" class="footer__link-item">Маркетплэйс</a>
           <a href="" class="footer__link-item">Скидки</a>
           <a href="" class="footer__link-item">Контакты</a>
-          <a href="" class="footer__link-item">Политика конфиденциальности</a>
+          <a href="/html/privacypolicy.html" class="footer__link-item">Политика конфиденциальности</a>
           <p class="footer__email">
             Petrocanadapd@gmail.com
           </p>

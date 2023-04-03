@@ -67,7 +67,7 @@ a {
 
 .header-dublicate {
   height: 76px;
-  background-color: #fff;
+  background-color: #ffffff;
   width: 100%;
 }
 .header {
@@ -95,15 +95,14 @@ a {
 .burger__body-link {
   color: black;
   padding: 10px 10px;
-  font-size: 15px;
+  font-size: 16px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0px 20px;
-  height: 100%;
 }
 
 .container-category {
@@ -167,7 +166,8 @@ a {
   padding: 20px 30px;
 }
 .dropdown-link:hover {
-  color: rgba(0, 0, 0, 0.651);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .header__catalog-triangle {
   width: 12px;
@@ -369,7 +369,7 @@ a {
 .footer {
   padding: 40px 0px;
   width: 100%;
-  background-color: #8b8b8b;
+  background-color: #ffffff;
 }
 
 .footer__wrap {
@@ -378,6 +378,7 @@ a {
   height: 100%;
 }
 .footer__links {
+  
   height: 100%;
   font-size: 15px;
   display: flex;
@@ -597,9 +598,98 @@ a {
   white-space: nowrap;
 }
 
+
 .cart__form {
-  margin-top: 50px;
+  font-size: 16px;
+  display: flex;
+}
+.cart__fieldset {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+.cart__fieldset:first-child {
+  margin-right: 50px;
+}
+.cart__legend {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.cart__label {
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.label-star::after {
+  /* position: absolute; */
+  content: '';
+  background: url(/img/star.svg) no-repeat;
+  background-size: 10px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: -5px 0px;
 }
 .cart__input {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #ffffff;
   border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+}
+.cart__input:focus {
+  background-color: #37c02544;
+  transition: all 0.3s ease;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+.cart__input-short-flex {
+  display: flex;
+}
+.mar-left {
+  margin-left: auto;
+}
+
+.margin-r {
+  margin-right: 20px;
+}
+
+.cart__form-button {
+  padding: 10px 20px;
+  width: 50%;
+  margin: 20px auto 0px auto;
+  border-radius: 5px;
+  background-color: var(--brand-color);
+}
+
+.cart__delivery-text {
+  text-align: end;
+  margin-top: 15px;
+  font-size: 16px;
+}
+.cart__delivery-text-strong {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: end;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.privacypolicy {
+  margin-bottom: 50px;
+}
+.privacypolicy__title {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.privacypolicy__info-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 20px 0px;
 }
