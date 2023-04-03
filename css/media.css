@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .category__name {
     font-size: 14px;
   }
@@ -51,6 +51,9 @@
 @media (max-width: 767px) {
     .section-lvl2 {
         font-size: 22px;
+    }
+    .sub-title {
+      font-size: 20px;
     }
   .header {
     padding: 15px 0px;
@@ -182,9 +185,15 @@
   .burger__body {
     top: 61px;
   }
-  /* .header-dublicate {
-    height: 71px;
+  /* .market-link-wrap {
+    flex-direction: column;
   } */
+  /* .market-link:first-child {
+    margin-right: auto;
+  } */
+  .market-img {
+    height: 40px;
+  }
   .header__burger {
     height: 25px;
   }

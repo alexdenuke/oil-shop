@@ -35,7 +35,11 @@ a {
   font-weight: 700;
   margin-bottom: 0.8em;
 }
-
+.sub-title {
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 0.8em;
+}
 .mr-bot {
   margin-bottom: 0.8em;
 }
@@ -55,9 +59,7 @@ a {
 .content {
   flex: 1 0 auto;
 }
-.footer {
-  flex-shrink: 0;
-}
+
 .btn {
   font-size: 20px;
   background-color: #fff;
@@ -345,8 +347,9 @@ a {
   padding: 10px 20px;
   margin-right: 20px;
   border-radius: 5px;
-  border: 1px solid rgb(146, 146, 146);
+  border: 1px solid ;
 }
+
 .form-button {
   padding: 10px 20px;
   border-radius: 5px;
@@ -369,7 +372,8 @@ a {
 .footer {
   padding: 40px 0px;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #575757;
+  flex-shrink: 0;
 }
 
 .footer__wrap {
@@ -387,11 +391,11 @@ a {
   justify-content: space-between;
 }
 .footer__link-item {
-  color: var(--black-color);
+  color: white;
   margin-bottom: 20px;
 }
 .footer__link-item:hover {
-  color: var(--hover-from-black);
+  color: rgba(255, 255, 255, 0.712);
 }
 
 .footer__social-link-wrap {
@@ -405,6 +409,7 @@ a {
   height: 100%;
 }
 .footer__email {
+  color: white;
   font-size: 15px;
 }
 .footer__icons {
@@ -680,6 +685,19 @@ a {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.market-link-wrap {
+  display: flex;
+  margin-top: 25px;
+}
+.market-link {
+  margin-right: 50px;
+}
+.market-img {
+  height: 60px;
+}
+
+
+
 .privacypolicy {
   margin-bottom: 50px;
 }
