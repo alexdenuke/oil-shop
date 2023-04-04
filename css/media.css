@@ -121,8 +121,17 @@
   .product {
     grid-template-columns: 1fr;
   }
+  .product__img {
+    margin: 0px 0px 15px 0px;
+  }
+  .product__desc-title {
+    margin-bottom: 5px;
+  }
   .product__desc-item {
     font-size: 14px;
+  }
+  .product__about {
+    padding-right: 0px;
   }
   .product__desc-item-info {
     font-size: 14px;
