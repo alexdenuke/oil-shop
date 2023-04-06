@@ -153,23 +153,23 @@
     flex: 0 0 auto;
     font-size: 14px;
   }
-  .cart__quantity {
+  /* .cart__quantity {
     font-size: 14px;
-  }
-  .cart__minus {
+  } */
+  /* .cart__minus {
     width: 25px;
   }
   .cart__plus {
     width: 25px;
-  }
+  } */
   .cart__price-wrap {
     /* border-top: 1px solid grey; */
     padding: 10px 0px 0px;
     margin-top: 20px;
   }
   .cart__price {
-    font-size: 14px;
-    margin-left: 0px;
+    /* font-size: 18px; */
+    margin-left: auto;
   }
   .cart__img-wrap {
     flex-basis: 10%;

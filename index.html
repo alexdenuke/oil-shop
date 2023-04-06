@@ -6,16 +6,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
   <title>oil-shop</title>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="/css/reset.css" />
+  <link rel="stylesheet" href="/css/swiper.css">
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="stylesheet" href="/css/media.css">
+  
 </head>
 
 <body>
@@ -62,6 +69,30 @@
   </header>
   <div class="content">
     <div class="header-dublicate"></div>
+
+    <div class="swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <picture>
+            <source media="(max-width: 1200px)" srcset="/img/oil-1200.jpg">
+            <img class="swiper-img" src="" alt="картинка">
+          </picture>
+
+        </div>
+        <div class="swiper-slide">
+          <img class="swiper-img" src="/img/motor.avif" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img class="swiper-img" src="/img/motor.avif" alt="">
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+  
+      <div class="swiper-scrollbar"></div>
+    </div>
 
     <section class="section-lvl1 brand-color">
       <div class="container">
@@ -187,10 +218,11 @@
       </div>
     </div>
   </footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="/script/swiper.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
   <script src="/script/script.js"></script>
+
+
 </body>
 
 </html>

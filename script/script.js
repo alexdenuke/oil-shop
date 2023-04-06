@@ -21,19 +21,6 @@ window.onclick = function (event) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 let burger = document.querySelector('.header__burger');
 let burgerBody = document.querySelector('.burger__body');
 burger.addEventListener('click', ()=> {

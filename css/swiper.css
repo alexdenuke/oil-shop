@@ -1,0 +1,17 @@
+.swiper {
+    height: 500px;
+    
+    
+}
+
+.swiper-wrapper {
+}
+
+.swiper-slide {
+    overflow: hidden;
+
+}
+
+.swiper-img {
+    height: 100%;
+}
