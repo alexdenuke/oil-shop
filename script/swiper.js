@@ -1,21 +1,52 @@
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
+const slider = document.querySelector('.swiper-main');
+const slider2 = document.querySelector('.swiper-category');
+
+
+new Swiper(slider, {
+  direction: 'horizontal',
+  loop: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'fraction',
+    clickable: true,
+  },
+  // slidesPerGroup: 1,
+  slidesPerView: 1,
+  grabCursor: true,
+});
+
+
+new Swiper(slider2, {
+  direction: 'horizontal',
+  loop: false,
+  // navigation: {
+  //   nextEl: '.swiper-button-next2',
+  //   prevEl: '.swiper-button-prev2',
+  // },
+  // pagination: {
+  //   el: '.swiper-pagination',
+  //   type: 'fraction',
+  //   clickable: true,
+  // },
+  // slidesPerGroup: 1,
+  breakpoints: {
+    767: {
+      slidesPerView: 4,
     },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+    0: {
+      slidesPerView: 1,
     },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
+    400: {
+      slidesPerView: 2,
     },
-  });
+    600: {
+      slidesPerView: 3,
+    }
+  },
+  slidesPerView: 4,
+  grabCursor: true,
+});

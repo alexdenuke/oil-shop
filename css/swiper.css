@@ -1,17 +1,66 @@
-.swiper {
-    height: 500px;
-    
-    
-}
+.swiper {}
 
 .swiper-wrapper {
+    width: 100%;
 }
 
-.swiper-slide {
-    overflow: hidden;
+.container-swiper11 {
+    background: url(/img/sunset.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.container-swiper22 {
+    background: url(/img/main-oil-foto-bl.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.container-swiper33 {
+    background: url(/img/oi-oil-oil.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.swiper-txt {
+    padding: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.txt-white {
+    color: rgb(255, 255, 255);
+}
+
+.container-swiper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.category-icon {
+    height: 50px;
+    /* background-color: #b41414; */
+    /* border-radius: 50px; */
+    /* padding: 10px; */
+}
+
+.category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdc316;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.category-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
-.swiper-img {
-    height: 100%;
+.category-txt {
+    font-size: 16px;
 }

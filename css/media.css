@@ -175,7 +175,9 @@
     flex-basis: 10%;
   }
 
-
+.swiper-txt {
+  font-size: 30px;
+}
 }
 @media (max-width: 700px) {
   .category__name {
@@ -185,6 +187,9 @@
   .catalog__item {
     flex-basis: 100%;
     max-width: 100%;
+  }
+  .swiper-txt {
+    font-size: 25px;
   }
 }
 @media (max-width: 500px) {
