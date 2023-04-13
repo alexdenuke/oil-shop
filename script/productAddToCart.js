@@ -1,0 +1,1 @@
+let btnBuy = document.querySelectorAll('.product__buy');

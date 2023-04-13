@@ -675,8 +675,7 @@ a {
 .cart__form-button:hover {
   background-color: #ffcc33;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-  color: #fff;
-    
+  color: #fff;  
 }
 .cart__delivery-text {
   text-align: end;

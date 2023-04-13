@@ -64,7 +64,7 @@
       <div class="container">
         <h1 class="title">Корзина:</h1>
         <div class="cart">
-          <div class="cart__item">
+          <!-- <div class="cart__item">
             <img src="/img/delete.svg" alt="" class="cart__item-delete">
             <div class="cart__img-wrap">
               <img src="/img/oil-big.jpg" alt="" class="cart__img">
@@ -74,14 +74,13 @@
                 Трансмиссионное масло Petro-Canada Lorem ipsum dolor sit amet consectetur
               </a>
               <div class="cart__price-wrap">
-                <!-- <div class="cart__amount">5 л </div> -->
                 <img src="/img/minus.svg" alt="" class="cart__minus">
                 <div class="cart__quantity">1000</div>
                 <img src="/img/plus.svg" alt="" class="cart__plus">
                 <div class="cart__price">1000000 р</div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -93,30 +92,31 @@
 
     <section class="section-lvl2">
       <div class="container">
-        <form class="cart__form" action="">
+        <form id="send-to-tg" action="" class="cart__form">
+
           <fieldset class="cart__fieldset">
             <legend class="cart__legend">
               Введите ваши данные
             </legend>
-              <label class="cart__label label-star" for="">
-                Ваше имя
-              </label>
-              <input class="cart__input"  type="text">
-  
-              <label class="cart__label label-star" for="">
-                Ваш телефон
-              </label>
-              <input class="cart__input"  type="text">
-  
-              <label class="cart__label label-star" for="">
-                Ваша почта
-              </label>
-              <input class="cart__input"  type="text">
-  
-              <label class="cart__label" for="">
-                Комментарий
-              </label>
-              <input class="cart__input" type="text">
+            <label class="cart__label label-star" for="">
+              Ваше имя
+            </label>
+            <input class="cart__input input-name" name="name" type="text">
+
+            <label class="cart__label label-star" for="">
+              Ваш телефон
+            </label>
+            <input class="cart__input input-tel" name="tel" type="text">
+
+            <label class="cart__label label-star" for="">
+              Ваша почта
+            </label>
+            <input class="cart__input input-email" name="email" type="text">
+
+            <label class="cart__label" for="">
+              Комментарий
+            </label>
+            <input class="cart__input input-comment" name="comment" type="text">
           </fieldset>
 
           <fieldset class="cart__fieldset">
@@ -124,54 +124,54 @@
               Введите ваш адрес
             </legend>
 
-              <label class="cart__label label-star" for="">
-                Улица
-              </label>
-              <input class="cart__input"  type="text">
+            <label class="cart__label label-star" for="">
+              Улица
+            </label>
+            <input class="cart__input input-street" name="street" type="text">
 
-              <div class="cart__input-short-flex">
-                
-                <div class="flex-column margin-r ">
-                  <label class="cart__label label-star" for="">
-                    Дом
-                  </label>
-                  <input class="cart__input" type="text">
-                </div>
+            <div class="cart__input-short-flex">
 
-                <div class="flex-column">
-                  <label class="cart__label label-star" for="">
-                    Квартира
-                  </label>
-                  <input class="cart__input" type="text">
-                </div>
+              <div class="flex-column margin-r ">
+                <label class="cart__label label-star" for="">
+                  Дом
+                </label>
+                <input class="cart__input input-house" name="house" type="text">
               </div>
 
-              <div class="cart__input-short-flex">
-                <div class="flex-column margin-r">
-                  <label class="cart__label" for="">
-                    Этаж
-                  </label>
-                  <input class="cart__input" type="text">
-                </div>
+              <div class="flex-column">
+                <label class="cart__label label-star" for="">
+                  Квартира
+                </label>
+                <input class="cart__input input-flat" name="flat" type="text">
+              </div>
+            </div>
 
-                <div class="flex-column">
-                  <label class="cart__label" for="">
-                    Подъезд
-                  </label>
-                  <input class="cart__input" type="text">
-                </div>
+            <div class="cart__input-short-flex">
+              <div class="flex-column margin-r">
+                <label class="cart__label" for="">
+                  Этаж
+                </label>
+                <input class="cart__input input-floor" name="floor" type="text">
               </div>
 
+              <div class="flex-column">
+                <label class="cart__label" for="">
+                  Подъезд
+                </label>
+                <input class="cart__input input-entrance" name="entrance" type="text">
+              </div>
+            </div>
 
-              <label class="cart__label" for="">
-                Домофон
-              </label>
-              <input class="cart__input" type="text">
-              <button class="cart__form-button">
+
+            <label class="cart__label" for="">
+              Домофон
+            </label>
+            <input class="cart__input input-intercom" name="intercom" type="text">
+            <button type="submit" class="cart__form-button">
                 Заказать
               </button>
           </fieldset>
-            
+
         </form>
         <p class="politics">
           * Нажимая на кнопку «Заказать», я даю согласие на обработку персональных данных.
@@ -202,7 +202,10 @@
       </div>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="/script/script.js"></script>
+  <script src="/script/showCart.js"></script>
+  <script src="/script/send_to_server.js"></script>
 </body>
 
 </html>
